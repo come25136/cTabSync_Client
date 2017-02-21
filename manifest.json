@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "cTabSync",
+  "version": "1.0.0",
+  "description": "このpcで表示しているタブを他の端末から見えるようにする為の拡張機能 https://ctabsync.momizi.work",
+  "background": {
+    "scripts": [
+      "bower_components/jquery/dist/jquery.min.js",
+      "bower_components/socket.io-client/dist/socket.io.min.js",
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "https://twitter.com/"
+  ],
+  "icons" : {
+    "128": "icon.png"
+  }
+}

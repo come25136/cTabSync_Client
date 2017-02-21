@@ -1,0 +1,8 @@
+{
+  "name": "cTabSync",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "socket.io-client": "^1.7.2"
+  }
+}
